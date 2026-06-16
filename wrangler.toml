@@ -1,0 +1,6 @@
+name = "sports-backoffice"
+compatibility_date = "2025-06-01"
+
+# 정적 파일만 서빙합니다 (public 폴더의 index.html 등).
+[assets]
+directory = "./public"
