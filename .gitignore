@@ -1,7 +1,14 @@
-# 배포 관련 파일만 추적
+# 배포에는 index.html 하나만 추적합니다.
+# 작업 원본(sports-backoffice (1).html), 백업(.bak), 임시 스크립트(_*.js),
+# 이미지·기타 모달 HTML 등은 저장소에 올리지 않습니다.
 *
+!index.html
 !.gitignore
 !README.md
-!wrangler.toml
-!public/
-!public/index.html
+
+# wrangler files
+.wrangler
+.dev.vars*
+!.dev.vars.example
+.env*
+!.env.example
